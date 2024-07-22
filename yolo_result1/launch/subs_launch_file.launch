@@ -1,0 +1,6 @@
+<launch>
+  <node name="main" pkg="yolo_result1" type="yolo_result1" output="screen">
+    <remap from="camera/image" to="/camera/image" />
+    
+  </node>
+</launch>
